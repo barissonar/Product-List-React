@@ -1,3 +1,10 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/15dhsDVr)
-# Week-3
-week-3
+<h1>Product List App</h1>
+<p>The purpose of this project is to show the incoming products to the user by sending a request to the backend API and to enable the user to make various updates and delete operations on these incoming products.</p>
+<div align="center">
+<img src="images/1.JPG"/>
+<br/><br/><br/><br/>
+<img src="images/2.JPG"/>
+<br/><br/><br/><br/>  
+<img src="images/3.JPG"/>
+  
+</div>
