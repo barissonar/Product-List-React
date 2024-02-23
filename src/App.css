@@ -1,0 +1,168 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+html,body,#root,.App {
+  width: 100%;
+  height: 100%;
+}
+body {
+  font-family: sans-serif;
+
+}
+.header {
+  text-align: center;
+  font-size: 15px;
+  margin-top: 50px;
+}
+.container {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+  flex-wrap: wrap;
+  padding: 30px;
+ 
+}
+.Card {
+  width: 20%;
+  height: 300px;
+  overflow: hidden;
+  border: 1px solid black;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+  align-items: center;
+  justify-content: flex-end;
+  text-align: center;
+  padding: 10px;
+}
+.hrr {
+  width: 100%;
+}
+
+.card-image {
+
+  width: 100px;
+  height: 100px;
+  
+
+}
+
+.card-edit-del {
+  display: flex;
+  width: 100%;
+  padding: 10px;
+  justify-content: space-around;
+
+}
+
+.btn {
+  width: 40%;
+  height: 30px;
+  border-radius: 5px;
+  color: white;
+}
+.btn:hover {
+  cursor: pointer;
+}
+
+.edit-btn {
+  background-color: #3498db;
+  border-color: #3498db;
+}
+.edit-btn:hover {
+  background-color: #34a9f7;
+}
+
+.delete-btn {
+  background-color: #e40808;
+  border-color: #e40808;
+}
+
+.delete-btn:hover {
+  background-color: #ff0000;
+}
+
+.modelcontainer {
+  padding: 5px;
+
+  
+}
+
+.modelborder {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 400px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 50px;
+}
+
+.modeledit-delete-container {
+  display: flex;
+  justify-content: end;
+  gap: 7px;
+  margin-top: 15px;
+}
+
+.btnsave {
+  width: 120px;
+  height: 30px;
+  cursor: pointer;
+  border-radius: 5px;
+  color: white;
+  border-color: green;
+  background-color: green;
+}
+
+.btnsave:hover {
+  
+  background-color: rgb(23, 196, 23);
+
+
+}
+
+.btnclose {
+  background-color: darkgray;
+  border-radius: 5px;
+  color: white;
+  border-color: darkgray;
+  cursor: pointer;
+  width: 70px;
+}
+
+.btnclose:hover {
+  background-color: rgba(169, 169, 169, 0.637);
+}
+
+.text-input {
+  padding: 10px;
+  outline: none;
+  border-radius: 3px;
+  border: 1px solid darkgray;
+}
+.text-input:focus {
+  border-color: #3498db;
+}
+.text-area {
+  height: 150px;
+  padding: 10px;
+  outline: none;
+  border: 1px solid darkgray;
+}
+.text-area:focus {
+  border-color: #3498db;
+  border-radius: 3px;
+}
+
+@media only screen and (max-width: 768px) {
+  /* Bu stil kuralları sadece 768 piksel veya daha geniş ekranlarda uygulanır */
+  .Card {
+    width: 100%;
+  }
+
+  /* Diğer özel stil kuralları buraya eklenebilir */
+}
